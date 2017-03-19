@@ -1,0 +1,10 @@
+applications:
+- path: .
+  memory: 256M
+  instances: 1
+  domain: mybluemix.net
+  name: CB Laafinho OKOS
+  host: CB-Laafinho-OKOS
+  disk_quota: 1024M
+  services:
+  - Laafinho
